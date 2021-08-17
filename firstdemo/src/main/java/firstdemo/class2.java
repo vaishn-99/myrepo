@@ -4,12 +4,10 @@ public class class2 {
 
 	public void display() {
 			int[] arr= {15,41,7,33,12,13,58};
-			int sum=0;
-			for(int num:arr) {
-				sum+=num;
-				System.out.println(num);
+			for(int i=0;i<arr.length;i++) {
+			System.out.println("Array Size:" + arr.length);
 			}
-			System.out.println("Summation:" + sum);
+			
 	}		
 			
 	public void print() {
